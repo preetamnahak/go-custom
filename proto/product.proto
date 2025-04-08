@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package product;
+
+option go_package = "github.com/preetamnahak/mypackagest";
+
+service ProductService {
+  rpc GetProduct(ProductRequest) returns (ProductResponse) {}
+  rpc SearchProducts(SearchRequest) returns (SearchResponse) {}
+}
+
+message ProductRequest {
+  int32 id = 1;
+}
+
+message ProductResponse {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+  double price = 4;
+}
+
+message SearchRequest {
+  string query = 1;
+  int32 limit = 2;
+}
+
+message SearchResponse {
+  repeated ProductResponse products = 1;
+}
