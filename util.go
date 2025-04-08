@@ -1,5 +1,5 @@
 // file: util.go
-package mypackage
+package math_custom
 
 func Add(a, b int) int {
 	return a + b
