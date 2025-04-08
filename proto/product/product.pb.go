@@ -249,7 +249,7 @@ const file_proto_product_product_proto_rawDesc = "" +
 	"\x0eProductService\x12A\n" +
 	"\n" +
 	"GetProduct\x12\x17.product.ProductRequest\x1a\x18.product.ProductResponse\"\x00\x12C\n" +
-	"\x0eSearchProducts\x12\x16.product.SearchRequest\x1a\x17.product.SearchResponse\"\x00B2Z0github.com/preetamnahak/mypackages/proto/productb\x06proto3"
+	"\x0eSearchProducts\x12\x16.product.SearchRequest\x1a\x17.product.SearchResponse\"\x00B\x0fZ\rproto/productb\x06proto3"
 
 var (
 	file_proto_product_product_proto_rawDescOnce sync.Once
